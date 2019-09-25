@@ -3,8 +3,7 @@ import React from 'react'
 import Login from './Login'
 import Alert from './Alert'
 import Register from './Register'
-import Navbar from './Navbar'
-import Expences from '.Expences'
+import ExpensesPage from '.Expences'
 
 
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
