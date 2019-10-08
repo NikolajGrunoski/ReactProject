@@ -25,4 +25,4 @@ const Routes = () => {
     )
 }
 
-ReactDOM.render(<Routes/>, app)
+ReactDOM.render(<Routes/>, app) 
