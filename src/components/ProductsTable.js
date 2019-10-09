@@ -4,7 +4,7 @@ import ProuctsTbodyData from './ProductsTbodyData'
 const ProductsTable = () => {
     return (
         <div className="table-container">
-            <table style="width:90%"/>
+            <table style={{width: '90%'}}/>
                 <tr className="header-line">
                     <th>Product Name</th>
                     <th>Product Type</th>
