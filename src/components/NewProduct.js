@@ -10,7 +10,7 @@ const NewProduct = () => {
 
                 <p className="title">New Product</p>
 
-                <div className="box-container">
+                <div className="box-container-products">
                     <form action="" className="form-box">
                         <p className="input-container">
                             <label for="" className="text-field-input">Product Name</label>

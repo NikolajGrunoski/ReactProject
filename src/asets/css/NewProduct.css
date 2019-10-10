@@ -7,7 +7,7 @@ html,body {
     margin-bottom: 200px;
 }
 
-.box-container{
+.box-container-products{
     border-radius: 5px;
     width: 50%;
     float: left;
@@ -52,7 +52,7 @@ h1{
 }
 
 .input-container{
-    width: 80%;
+    /* width: 80%; */
     margin: 0px 0px 20px 0px;
 }
 
