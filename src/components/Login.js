@@ -2,39 +2,37 @@ import React from 'react'
 
 const Login = () => {
     return (
-        <>
-            <div id="login">
-            
-                <div className="box-container" id='box-container'/>
-                    <form action="" className="form-box"/>
-                        <p className="input-container"/>
-                            <label for="" className="text-field-input">E-mail</label>
-                            <input type="text" className="text-field"/>
-                        <p/>
+        <div>
+            <div className="box-container"/>
+                <form action="" class="form-box"/>
+                    <p class="input-container"/>
+                        <label for="" class="text-field-input">E-mail</label>
+                        <input type="text" class="text-field"/>
+                    <p/>
 
-                        <p className="input-container"/>
-                            <label for="" className="text-field-input">Password</label>
-                            <input type="password" className="text-field"/>
-                        <p/>
+                    <p class="input-container"/>
+                        <label for="" class="text-field-input">Password</label>
+                        <input type="password" class="text-field"/>
+                    <p/>
 
-                        <button className="primary-button long">Sing in</button>
+                    <button class="primary-button long">Sing in</button>
 
-                    <form/>
-                <div/>
+                <form/>
+            <div/>
 
 
 
 
-                <div className="additional-info" id="additional-info-login"/>
-                    <p>
-                        Or if you don't have and account,
-                        <a href="#">Register</a>
-                    </p>
-                <div/>
-            
-            </div>
-        </>
+            <div class="additional-info"/>
+                <p>
+                    Or if you don't have and account,
+                    <a href="#">Register</a>
+                </p>
+            <div/>
+        </div>
     )
+    
+
 }
 
 export default Login
