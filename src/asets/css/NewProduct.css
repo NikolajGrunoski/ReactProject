@@ -58,7 +58,7 @@ h1{
 
 .primary-button.long.new-product{
     height: 50px;
-    width: 80%;
+    /* width: 80%; */
     border-radius: 5px;
     font-weight: bolder;
     margin-top: 20px;
