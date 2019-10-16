@@ -41,8 +41,8 @@ p{
 
 
 
-.buttons{
-    /* text-align: right; */
+.buttons-alert{
+    text-align: right;
     padding: 20px;
     padding-top: 50px;
 }

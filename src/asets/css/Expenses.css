@@ -70,13 +70,6 @@ label{
 
 } */
 
-table {
-    border-collapse: collapse;
-    margin:40px;
-    margin-left: 60px;
-    margin-top: 0px;
-    font-size: 16px;
-}
 
 td{
     padding: 20px;
@@ -108,6 +101,4 @@ th{
     color: #fff;
 }
 
-thead{
-    padding-top: 50px;
-}
+

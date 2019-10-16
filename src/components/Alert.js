@@ -8,7 +8,7 @@ const Alert = () => {
                     <h1 className="tittle">Delete Product</h1>
                     <p>You are about to delete this product. Are you sure you wish to continue?</p>
 
-                    <div className="buttons">
+                    <div className="buttons-alert">
                         <button className="cancel-button">CANCEL</button>
                         <button className="delete-button">DELETE</button>
                     </div>

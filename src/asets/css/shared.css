@@ -139,6 +139,14 @@ header {
     border-color: transparent;
 }
 
+table {
+    border-collapse: collapse;
+    margin:40px;
+    margin-left: 60px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
 tbody{
     background-color: #fff;
 
@@ -152,8 +160,6 @@ tr{
     border-bottom: 15px solid;
     border-color: #E5EDF5;
     
-}
-
-#navbar{
     
 }
+
