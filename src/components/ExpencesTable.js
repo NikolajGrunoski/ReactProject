@@ -5,7 +5,7 @@ const ExpencesTable = () => {
     return (
         <div className="table-expenses">
             <div className="table-container">
-                <table style="width:90%">
+                <table style={{width: '90%'}}>
                     <thead>
                         <tr className="header-line">
                             <th>Product Name</th>

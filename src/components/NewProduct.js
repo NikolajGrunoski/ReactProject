@@ -13,27 +13,27 @@ const NewProduct = () => {
                 <div className="box-container-products">
                     <form action="" className="form-box">
                         <p className="input-container">
-                            <label for="" className="text-field-input">Product Name</label>
+                            <label htmlFor="" className="text-field-input">Product Name</label>
                             <input type="text" className="text-field"/>
                         </p>
 
                         <p className="input-container">
-                            <label for="" className="text-field-input">Product Description</label>
+                            <label htmlFor="" className="text-field-input">Product Description</label>
                             <input type="text" className="text-field"/>
                         </p>
 
                         <p className="input-container">
-                            <label for="" className="text-field-input">Product Type</label>
+                            <label htmlFor="" className="text-field-input">Product Type</label>
                             <input type="text" className="text-field"/>
                         </p>
 
                         <p className="input-container">
-                            <label for="" className="text-field-input">Purchase Date</label>
+                            <label htmlFor="" className="text-field-input">Purchase Date</label>
                             <input type="text" className="text-field"/>
                         </p>
 
                         <p className="input-container">
-                            <label for="" className="text-field-input">Product Price</label>
+                            <label htmlFor="" className="text-field-input">Product Price</label>
                             <input type="number" className="text-field"/>
                         </p>
 

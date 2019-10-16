@@ -6,12 +6,12 @@ const Login = () => {
             <div className="box-container"/>
                 <form action="" className="form-box"/>
                     <p className="input-container"/>
-                        <label for="" className="text-field-input">E-mail</label>
+                        <label htmlFor="" className="text-field-input">E-mail</label>
                         <input type="text" className="text-field"/>
                     <p/>
 
                     <p className="input-container"/>
-                        <label for="" className="text-field-input">Password</label>
+                        <label htmlFor="" className="text-field-input">Password</label>
                         <input type="password" className="text-field"/>
                     <p/>
 
