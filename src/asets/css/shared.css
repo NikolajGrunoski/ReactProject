@@ -107,10 +107,9 @@ label{
 }
 
 header {
-    padding: 20px;
     justify-content: space-between;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     background-color: #fff;
 }
 
@@ -138,4 +137,23 @@ header {
     padding: 10px;
     width: 130px;
     border-color: transparent;
+}
+
+tbody{
+    background-color: #fff;
+
+}
+
+tr{
+    Font-size: 16px;
+    Color: #575757;
+    Background: #fff;
+    text-align: center;
+    border-bottom: 15px solid;
+    border-color: #E5EDF5;
+    
+}
+
+#navbar{
+    
 }

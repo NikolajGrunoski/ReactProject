@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         
         <div id="navbar">
-            <header/>
+            <header>
                 <div className="buttons">
                     <button className="ghost-button">PRODUCTS</button>
                     <button className="solid-button">EXPENSES</button>
@@ -14,7 +14,7 @@ const Navbar = () => {
                     <img src="../../asets/images/profile-picture.jpg" alt="" className="picture"/>
                     <h1 className="username">Nikolaj Grunoski</h1>
                 </div>
-            <header/>
+            </header>
         </div>
     )
 }

@@ -2,33 +2,33 @@ import React from 'react'
 
 const Login = () => {
     return (
-        <div>
-            <div className="box-container"/>
-                <form action="" className="form-box"/>
-                    <p className="input-container"/>
+        <div id='login'>
+            <div className="box-container">
+                <form action="" className="form-box">
+                    <p className="input-container">
                         <label htmlFor="" className="text-field-input">E-mail</label>
                         <input type="text" className="text-field"/>
-                    <p/>
+                    </p>
 
-                    <p className="input-container"/>
+                    <p className="input-container">
                         <label htmlFor="" className="text-field-input">Password</label>
                         <input type="password" className="text-field"/>
-                    <p/>
+                    </p>
 
                     <button className="primary-button long">Sing in</button>
 
-                <form/>
-            <div/>
+                </form>
+            </div>
 
 
 
 
-            <div className="additional-info"/>
+            <div className="additional-info">
                 <p>
                     Or if you don't have and account,
                     <a href="#">Register</a>
                 </p>
-            <div/>
+            </div>
         </div>
     )
     

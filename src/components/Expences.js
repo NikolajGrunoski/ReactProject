@@ -4,7 +4,7 @@ import ExpencesTable from './ExpencesTable'
 const Expences = () => {
     return (
         <div id='expenses'>
-            <p>Expenses</p>
+            <p className='expences-par'>Expenses</p>
             <div className="tabs">
                 <button className="button active">MONTHLY</button>
                 <button className="button">YEARLY</button>

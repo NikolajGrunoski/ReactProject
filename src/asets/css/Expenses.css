@@ -27,6 +27,7 @@
 
 .tabs{
     display: flex;
+    padding: 30px 0px 30px 30px;
 }
 
 .checklist{
@@ -45,8 +46,8 @@ label{
     color: black;
 }
 
-p{
-    /* margin-left: 50px; */
+.expences-par{
+    margin-left: 60px;
     font-size: 22px;
     font-weight: bolder;
 }
@@ -59,7 +60,7 @@ p{
    
 }
 
-.row-lines {
+/* .row-lines {
     Font-size: 16px;
     Color: #575757;
     Background: #fff;
@@ -67,7 +68,7 @@ p{
     border-bottom: 15px solid;
     border-color: #E5EDF5;
 
-}
+} */
 
 table {
     border-collapse: collapse;
@@ -95,15 +96,16 @@ th{
     height: 80px;
     left: 0;
     bottom: 0;
-    color: white;
-    opacity: 0.8;
+    
+    opacity: 0.6;
 }
 
-h1{
+.total-spent{
     text-align: right;
     margin-right: 70px;
     font-size: 22px;
     padding-top: 20px;
+    color: #fff;
 }
 
 thead{
