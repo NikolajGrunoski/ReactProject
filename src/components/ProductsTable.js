@@ -12,6 +12,7 @@ const ProductsTable = () => {
                         <th>Product Description</th>
                         <th>Purchase Date</th>
                         <th>Product Price</th>
+                        <th> </th>
                     </tr>
                 </thead>
                 
