@@ -4,7 +4,7 @@ import ProductsTable from './ProductsTable'
 const Products = () => {
     return (
         <div id= 'products'>
-            <div className="check-list">
+           
                 <div className="title-checkbox">
 
                     <p className="title">Products</p>
@@ -22,7 +22,7 @@ const Products = () => {
                         </p>
                     </form>
                 </div>
-            </div>
+            
             <ProductsTable/>
         </div>
     )

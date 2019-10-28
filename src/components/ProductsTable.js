@@ -22,8 +22,9 @@ const ProductsTable = () => {
                         <td>Carbonated soft drink</td>
                         <td>19.04.2019</td>
                         <td>75</td>
-                        <td><button className="edit-del-btn"><i className="far fa-edit"></i></button><button className="edit-del-btn">
-                            <i className="far fa-trash-alt"></i></button>
+                        <td className='edit-delete-btn'>
+                            <button className="edit-del-btn"><i className="far fa-edit"></i></button>
+                            <button className="edit-del-btn"><i className="far fa-trash-alt"></i></button>
                         </td>
                     </tr>
                     <ProuctsTbodyData/>
