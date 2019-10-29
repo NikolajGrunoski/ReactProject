@@ -26,7 +26,7 @@ const Login = () => {
             <div className="additional-info">
                 <p>
                     Or if you don't have and account,
-                    <a href="#">Register</a>
+                    <a href="#"> Register</a>
                 </p>
             </div>
         </div>
