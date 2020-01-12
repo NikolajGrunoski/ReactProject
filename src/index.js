@@ -6,34 +6,12 @@ import ProductsPage from './components/ProductsPage'
 import NewProduct from './components/NewProduct'
 import ExpencesPage from './components/ExpencesPage'
 import Alert from './components/Alert'
+
+
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
 const app = document.getElementById('app')
 
-// const Menu = () => {
-//     return (
-//         <ul>
-//             <li>
-//                 <Link to='/'>Login</Link>
-//             </li>
-//             <li>
-//                 <Link to='/register'>Register</Link>
-//             </li>
-//             <li>
-//                 <Link to='/products'>Products</Link>
-//             </li>
-//             <li>
-//                 <Link to='/newproduct'>New Product</Link>
-//             </li>
-//             <li>
-//                 <Link to='/expences'>Expences</Link>
-//             </li>
-//             <li>
-//                 <Link to='/alert'>Alert</Link>
-//             </li>
-//         </ul>
-//     )
-// }
 
 
 const Routes = () => {

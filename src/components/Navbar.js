@@ -6,8 +6,8 @@ const Navbar = () => {
         <div id="navbar">
             <header>
                 <div className="buttons">
-                    <button className="ghost-button">PRODUCTS</button>
-                    <button className="solid-button">EXPENSES</button>
+                    <a href='/products'><button className="ghost-button">PRODUCTS</button> </a>
+                    <a href='/expences'> <button className="solid-button">EXPENSES</button> </a> 
                 </div>
 
                 <div className="profile-picture">

@@ -40,7 +40,7 @@ const Register = () => {
                         <input type="password" className="text-field"/>
                     </p>
 
-                    <button className="primary-button long">Sing in</button>
+                    <button className="primary-button long">Register</button>
 
                 </form>
             </div>
@@ -48,7 +48,7 @@ const Register = () => {
                 <div className="additional-info">
                     <p>
                         Or if you already have and account,
-                        <a href="#"> Sing in</a>
+                        <a href="#">Sing in</a>
                     </p>
                 </div>
 

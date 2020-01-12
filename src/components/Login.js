@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductsPage from './ProductsPage'
 
 const Login = () => {
     return (
@@ -15,7 +16,7 @@ const Login = () => {
                         <input type="password" className="text-field"/>
                     </p>
 
-                    <button className="primary-button long">Sing in</button>
+                    <a href='/products'><button className="primary-button long">Sing in</button></a>
 
                 </form>
             </div>
@@ -26,7 +27,7 @@ const Login = () => {
             <div className="additional-info">
                 <p>
                     Or if you don't have and account,
-                    <a href="#"> Register</a>
+                    <a href="/register"> Register</a>
                 </p>
             </div>
         </div>
