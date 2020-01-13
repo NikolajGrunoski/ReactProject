@@ -13,7 +13,7 @@ const Alert = () => {
                         <button className="delete-button">DELETE</button>
                     </div>
 
-            
+
                 </div>
             </div>
         </div>

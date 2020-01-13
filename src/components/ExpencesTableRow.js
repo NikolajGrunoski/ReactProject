@@ -2,7 +2,6 @@ import React from 'react'
 
 const ExpencesTableRow = (props) => {
     return (
-        
         <tr>
             <td>{props.productName}</td>
             <td>{props.productType}</td>

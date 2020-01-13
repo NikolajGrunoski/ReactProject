@@ -30,7 +30,7 @@ const Expences = () => {
                 </form>
 
             </div>
-            <ExpencesTable/>
+            <ExpencesTable />
         </div>
     )
 }

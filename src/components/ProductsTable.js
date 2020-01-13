@@ -4,7 +4,7 @@ import ProuctsTbodyData from './ProductsTbodyData'
 const ProductsTable = () => {
     return (
         <div className="table-container">
-            <table style={{width: '90%'}}>
+            <table style={{ width: '90%' }}>
                 <thead>
                     <tr className="header-line">
                         <th>Product Name</th>
@@ -15,7 +15,7 @@ const ProductsTable = () => {
                         <th> </th>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     <tr className="row-lines">
                         <td>Coca Cola</td>
@@ -28,7 +28,7 @@ const ProductsTable = () => {
                             <button className="edit-del-btn"><i className="far fa-trash-alt"></i></button>
                         </td>
                     </tr>
-                    <ProuctsTbodyData/>
+                    <ProuctsTbodyData />
                 </tbody>
             </table>
         </div>

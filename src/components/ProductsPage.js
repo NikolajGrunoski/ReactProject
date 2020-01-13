@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 class ProductsPage extends React.Component {
 
-    goToNewProduct ()  {
+    goToNewProduct() {
         this.props.navigation.navigate('NewProduct');
     }
-    
+
     render() {
         return (
             <React.Fragment>

@@ -5,7 +5,7 @@ const ExpencesTable = () => {
     return (
         <div className="table-expenses">
             <div className="table-container">
-                <table style={{width: '90%'}}>
+                <table style={{ width: '90%' }}>
                     <thead>
                         <tr className="header-line">
                             <th>Product Name</th>
@@ -24,7 +24,7 @@ const ExpencesTable = () => {
                             <td>19.04.2019</td>
                             <td>75</td>
                         </tr>
-                        <ExpencesTbodyData/>
+                        <ExpencesTbodyData />
                     </tbody>
                 </table>
             </div>

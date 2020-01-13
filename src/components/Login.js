@@ -8,12 +8,12 @@ const Login = () => {
                 <form action="" className="form-box">
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">E-mail</label>
-                        <input type="text" className="text-field"/>
+                        <input type="text" className="text-field" />
                     </p>
 
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">Password</label>
-                        <input type="password" className="text-field"/>
+                        <input type="password" className="text-field" />
                     </p>
 
                     <a href='/products'><button className="primary-button long">Sing in</button></a>
@@ -32,7 +32,7 @@ const Login = () => {
             </div>
         </div>
     )
-    
+
 
 }
 

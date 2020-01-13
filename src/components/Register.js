@@ -7,37 +7,37 @@ const Register = () => {
                 <form action="" className="form-box">
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">First Name</label>
-                        <input type="text" className="text-field"/>
+                        <input type="text" className="text-field" />
                     </p>
 
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">Last Name</label>
-                        <input type="text" className="text-field"/>
+                        <input type="text" className="text-field" />
                     </p>
 
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">E-mail</label>
-                        <input type="text" className="text-field"/>
+                        <input type="text" className="text-field" />
                     </p>
 
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">Date of Birth</label>
-                        <input type="text" className="text-field"/>
+                        <input type="text" className="text-field" />
                     </p>
 
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">Telephone</label>
-                        <input type="number" className="text-field"/>
+                        <input type="number" className="text-field" />
                     </p>
 
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">Country</label>
-                        <input type="text" className="text-field"/>
+                        <input type="text" className="text-field" />
                     </p>
 
                     <p className="input-container">
                         <label htmlFor="" className="text-field-input">Password</label>
-                        <input type="password" className="text-field"/>
+                        <input type="password" className="text-field" />
                     </p>
 
                     <button className="primary-button long">Register</button>
@@ -45,12 +45,12 @@ const Register = () => {
                 </form>
             </div>
 
-                <div className="additional-info">
-                    <p>
-                        Or if you already have and account,
-                        <a href="#">Sing in</a>
-                    </p>
-                </div>
+            <div className="additional-info">
+                <p>
+                    Or if you already have and account,
+                        <a href="/">Sing in</a>
+                </p>
+            </div>
 
         </div>
     )
