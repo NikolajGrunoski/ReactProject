@@ -1,7 +1,7 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from './node_modules/react'
+import Navbar from '../Navbar'
 import Products from './Products'
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Link } from './node_modules/react-router-dom'
 
 class ProductsPage extends React.Component {
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import ExpencesTableRow from './ExpencesTableRow'
-import data from './data'
+import data from '../data'
 
 const ExpencesTbodyData = () => {
     // let new_data = []

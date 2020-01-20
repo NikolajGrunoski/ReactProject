@@ -1,6 +1,6 @@
-import React from 'react'
+import React from './node_modules/react'
 import ProductsTableRow from './ProductsTableRow'
-import data from './data'
+import data from '../data'
 
 const ProductsTbodyData = () => {
     // let new_data = []
